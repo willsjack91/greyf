@@ -7,7 +7,7 @@ class WelcomeController < ApplicationController
   	    @hash = Gmaps4rails.build_markers(@restaurant) do |res, marker|
   		  marker.lat res.lat
   		  marker.lng res.long
-        
+      
   	end
   end
 
